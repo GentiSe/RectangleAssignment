@@ -12,7 +12,7 @@ RectangleAssignment is a web application that allows users to draw and resize a 
 # Technologies Used
 - Frontend: ReactJS.
 - Backend: .NET 8 Web API
-- Database: SQL Server (if applicable)
+- Database: SQL Server 
 
 # Getting Started
 # Prerequisites
@@ -21,17 +21,24 @@ Node.js (for the frontend)
 SQL Server (if applicable)
 
 # Installation
-1. Clone repository
-- git clone <repository-url>
+### 1. Clone repository
+- git clone https://github.com/GentiSe/RectangleAssignment.git
 - cd RectangleAssignment
-2. Navigate to the ClientApp Directory
+### 2. Navigate to the ClientApp Directory
 - cd clientapp
 - npm install
-3. Set Up the Backend
+### 3. Set Up the Backend
 - Open the backend project in Visual Studio or your preferred IDE.
 - Ensure that the database is set up correctly.
 - Update connection strings as necessary.
-4. Run the Application
+### 4. Database Setup
+1. Open SQL Server Management Studio (SSMS).
+2. Connect to your SQL Server instance.
+3. Open the `dbScript` file, inside the project.
+4. Execute the script in sql server to create the necessary tables and structures.
+5. Change connection string in appsettings.json.
+
+ ### 5. Run the Application
 - Start the backend server.
 - dotnet run
 - In a separate terminal, navigate to the clientapp folder and start the frontend.
@@ -41,6 +48,7 @@ SQL Server (if applicable)
 - Click the "Fetch Initial Dimensions" button to load the rectangle's dimensions.
 - Resize the rectangle by dragging the corners.
 - The perimeter will update automatically and be posted to the backend.
+- The first item in the backend will be fetched always.
 
 # API Endpoints
 - GET /api/v1/rectangle-dimensions: Fetch initial rectangle dimensions.
