@@ -15,7 +15,7 @@ RectangleAssignment is a web application that allows users to draw and resize a 
 - Database: SQL Server 
 
 # Getting Started
-# Prerequisites
+### Prerequisites
 Node.js (for the frontend)
 .NET 8 SDK (for the backend)
 SQL Server (if applicable)
