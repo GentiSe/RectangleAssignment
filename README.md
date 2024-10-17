@@ -12,7 +12,8 @@ RectangleAssignment is a web application that allows users to draw and resize a 
 # Technologies Used
 - Frontend: ReactJS.
 - Backend: .NET 8 Web API
-- Database: SQL Server 
+- Database: SQL Server
+- Libraries used for Frontend: React-Query, react-resizable.
 
 # Getting Started
 ### Prerequisites
