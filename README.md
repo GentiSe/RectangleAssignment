@@ -1,6 +1,6 @@
 ## Rectangle Assignment
 Overview
-RectangleAssignment is a web application that allows users to draw and resize a rectangle in an SVG format. The application fetches initial dimensions from a backend API and updates the dimensions and perimeter whenever the rectangle is resized. The project is built using React for the frontend and .NET for the backend.
+This task is a web application that allows users to draw and resize a rectangle in an SVG format. The application fetches initial dimensions from a backend API and saves the dimensions and perimeter whenever the rectangle is resized. The project is built using React for the frontend and .NET for the backend.
 
 # Features
 - Fetch initial rectangle dimensions from a backend API.
