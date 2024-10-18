@@ -39,7 +39,8 @@ SQL Server (if applicable)
 4. Execute the script in sql server to create the necessary tables and structures.
 5. Change connection string in appsettings.json.
 
- ### 5. Run the Application
+### Note: Please update the base URL for the APIs used in App.js. 
+### 5. Run the Application
 - Start the backend server.
 - dotnet run
 - In a separate terminal, navigate to the clientapp folder and start the frontend.
